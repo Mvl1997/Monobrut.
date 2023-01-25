@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monobrut</title>
+    <script src="./js/index.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <article class="logo">
+        <span class="name">Monobrut<span class="dot">.</span></span>
+      </article>
+      <nav>
+        <a class="links" href="all.html">Gallery</a>
+        <a class="links" href="about.html">About</a>
+        <a class="links" href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <div class="video-wrapper">
+      <video playsinline autoplay muted loop poster="cake.jpg">
+        <source src="public/Aerial Shot Of City.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <main>
+        <article class="hero-content">
+          <h1>Concrete monsters<span class="yellow-dot">.</span></h1>
+          <h2>Discover buildings, and its brutality founded in the 1950s.</h2>
+          <a class="cta-btn" href="all.html">Discover</a>
+        </article>
+      </main>
+    </div>
+
+    <article class="gallery">
+      <h2>Brutalism in architecture<span class="dot">.</span></h2>
+      <section>
+        <aside class="_option">
+          <button><a href="all.html">All</a></button>
+          <button><a href="north_america.html">North America</a></button>
+          <button><a href="latin_america.html">Latin America</a></button>
+          <button><a href="europe.html">Europe</a></button>
+          <button><a href="oceania.html">Oceania</a></button>
+          <button><a href="asia.html">Asia</a></button>
+          <button><a href="africa.html">Africa</a></button>
+        </aside>
+      </section>
+      <div id="myslider" style="width: 500px; height: 300px">
+        <img
+          src="public/media/belgrade-western-gate.jpg"
+          alt="belgrade-western-gate"
+        />
+        <img src="public/media/boston-city-hall.jpg" alt="boston-city-hall" />
+        <img src="public/media/breuer-building.jpg" alt="breuer-building" />
+        <img
+          src="public/media/Catedral_Metropolitana_do_Rio_de_Janeiro_(3200612646).jpg"
+          alt="Catedral_Metropolitana_do_Rio_de_Janeiro_"
+        />
+        <img src="public/media/domus-habitat-67.jpeg" alt="domus-habitat-67" />
+        <img src="public/media/geisel-library.jpg" alt="geisel-library" />
+        <img
+          src="public/media/Kenyatta-international-convention-centre-Nairobi.jpg"
+          alt="Kenyatta-international-convention-centre-Nairobi"
+        />
+        <img src="public/media/Mäusebunker.jpg" alt="Mäusebunker" />
+        <img
+          src="public/media/palace-of-assembly.webp"
+          alt="palace-of-assembly"
+        />
+        <img
+          src="public/media/Singapore_Power_Building_4,_Aug_07.jpeg"
+          alt="Singapore_Power_Building_4"
+        />
+        <img src="public/media/sirius-building.webp" alt="sirius-building" />
+        <img src="public/media/sydney-university.jpg" alt="sydney-university" />
+        <img src="public/media/Torre-Velasca.jpg" alt="Torre-Velasca" />
+        <img src="public/media/wotrubakirche.jpg" alt="wotrubakirche" />
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+      <script>
+        simpleslider.getSlider({
+          container: document.getElementById("myslider"),
+          transitionTime: 1,
+          delay: 3.5,
+        });
+      </script>
+    </article>
+
+    <footer>
+      Created by Brutalists Masters Gaspar & Mehdi<span class="dot">.</span>
+    </footer>
+  </body>
+</html>
