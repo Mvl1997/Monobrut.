@@ -2,3 +2,5 @@
 
 Een groepswerk in opdracht van de Syntra Full-stack opleiding.
 om te testen gebruik npm run start in de terminal.
+
+Front end versie HTML SASS 
